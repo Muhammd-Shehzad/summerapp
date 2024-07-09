@@ -14,8 +14,16 @@ class _ProfilePageState extends State<ProfilePage> {
       child: Stack(
         children: [
           Container(
-            color: Colors.white,
-          ),
+              height: double.infinity,
+              width: double.infinity,
+              color: Colors.white,
+              child: Column(
+                children: [
+                  Image.asset(
+                    'assets/ss.jpg',
+                  ),
+                ],
+              )),
         ],
       ),
     );
