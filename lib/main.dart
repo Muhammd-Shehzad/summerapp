@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:summerapp/Pprofile_page.dart';
+import 'package:summerapp/profile_page.dart';
 
 void main() {
   runApp(const MyApp());
