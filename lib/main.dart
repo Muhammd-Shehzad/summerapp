@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:summerapp/widget_triker.dart';
+import 'package:summerapp/Pprofile_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: WidgetTracker(),
-      // Tabbar(),
-      //  ProfilePage(),
+      home: ProfilePage(),
     );
   }
 }

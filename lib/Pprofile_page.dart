@@ -16,15 +16,6 @@ class _ProfilePageState extends State<ProfilePage> {
           Container(
             color: Colors.white,
           ),
-          Container(
-            child: Image.asset(
-              'assets/2.jpg',
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Icon(Icons.arrow_back_ios),
-          ),
         ],
       ),
     );
