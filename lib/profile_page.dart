@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -36,6 +37,225 @@ class _ProfilePageState extends State<ProfilePage> {
                             fontWeight: FontWeight.bold),
                       ),
                     ),
+                  ),
+                  SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8),
+                          child: Stack(
+                            children: [
+                              Container(
+                                height: 190,
+                                width: 190,
+                                decoration: BoxDecoration(),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(15),
+                                  child: Image.asset(
+                                    'assets/winter.jpg',
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                bottom: 10,
+                                left: 10,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.end,
+                                  children: [
+                                    Text(
+                                      'Winter',
+                                      style: TextStyle(
+                                          color: Colors.black, fontSize: 20),
+                                    ),
+                                    Text(
+                                      'Winter',
+                                      style: TextStyle(
+                                          color: Colors.black, fontSize: 15),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8),
+                          child: Stack(
+                            children: [
+                              Container(
+                                height: 190,
+                                width: 190,
+                                decoration: BoxDecoration(),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(15),
+                                  child: Image.asset(
+                                    'assets/summer.jpg',
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                bottom: 10,
+                                left: 10,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.end,
+                                  children: [
+                                    Text(
+                                      'Winter',
+                                      style: TextStyle(
+                                          color: Colors.white, fontSize: 20),
+                                    ),
+                                    Text(
+                                      'Winter',
+                                      style: TextStyle(
+                                          color: Colors.white, fontSize: 15),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8),
+                          child: Stack(
+                            children: [
+                              Container(
+                                height: 190,
+                                width: 190,
+                                decoration: BoxDecoration(),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(15),
+                                  child: Image.asset(
+                                    'assets/autman.jpg',
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                bottom: 10,
+                                left: 10,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.end,
+                                  children: [
+                                    Text(
+                                      'Winter',
+                                      style: TextStyle(
+                                          color: Colors.black, fontSize: 20),
+                                    ),
+                                    Text(
+                                      'Winter',
+                                      style: TextStyle(
+                                          color: Colors.black, fontSize: 15),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8),
+                          child: Stack(
+                            children: [
+                              Container(
+                                height: 190,
+                                width: 190,
+                                decoration: BoxDecoration(),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(15),
+                                  child: Image.asset(
+                                    'assets/spring.jpg',
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                bottom: 10,
+                                left: 10,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.end,
+                                  children: [
+                                    Text(
+                                      'Winter',
+                                      style: TextStyle(
+                                          color: Colors.black, fontSize: 20),
+                                    ),
+                                    Text(
+                                      'Winter',
+                                      style: TextStyle(
+                                          color: Colors.black, fontSize: 15),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Align(
+                    alignment: Alignment.topLeft,
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'Tages',
+                        style: TextStyle(
+                            color: Colors.amber,
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      Container(
+                        height: 45,
+                        width: 100,
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                              colors: [Colors.purpleAccent, Colors.blueAccent],
+                              end: Alignment.topRight,
+                              begin: Alignment.bottomLeft),
+                          borderRadius: BorderRadius.circular(25),
+                        ),
+                        child: Center(
+                          child: Text('Jacket'),
+                        ),
+                      ),
+                      Container(
+                        height: 45,
+                        width: 100,
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                              colors: [Colors.purpleAccent, Colors.blueAccent],
+                              end: Alignment.topRight,
+                              begin: Alignment.bottomLeft),
+                          borderRadius: BorderRadius.circular(25),
+                        ),
+                        child: Center(
+                          child: Text('Jacket'),
+                        ),
+                      ),
+                      Container(
+                        height: 45,
+                        width: 100,
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                              colors: [Colors.purpleAccent, Colors.blueAccent],
+                              end: Alignment.topRight,
+                              begin: Alignment.bottomLeft),
+                          borderRadius: BorderRadius.circular(25),
+                        ),
+                        child: Center(
+                          child: Text('Jacket'),
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),
